@@ -25,8 +25,11 @@
   "devDependencies": {
     "browser-sync": "^2.27.5",
     "child_process": "^1.0.2",
+    "csso": "^4.2.0",
     "gulp-autoprefixer": "^8.0.0",
+    "gulp-csso": "^4.0.1",
     "gulp-sass": "^5.0.0",
+    "gulp-size": "^4.0.1",
     "sass": "^1.37.0"
   },
   "description": ""

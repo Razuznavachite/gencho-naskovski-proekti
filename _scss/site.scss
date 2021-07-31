@@ -1,6 +1,7 @@
-body {
-    background: red;
-    h1 {
-        color: blue;
-    }
-}
+@import 'variables';
+
+@import 'reset';
+@import 'typography';
+@import 'layout';
+@import 'navigation';
+@import 'page';
