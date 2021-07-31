@@ -1,0 +1,33 @@
+{
+  "name": "genchonaskovski_website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Razuznavachite/gencho-naskovski-proekti.git"
+  },
+  "author": "gencho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Razuznavachite/gencho-naskovski-proekti/issues"
+  },
+  "homepage": "https://github.com/Razuznavachite/gencho-naskovski-proekti#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "node-sass": "^6.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.5",
+    "child_process": "^1.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.37.0"
+  },
+  "description": ""
+}
