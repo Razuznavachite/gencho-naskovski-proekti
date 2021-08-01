@@ -6,3 +6,8 @@ html {
 body {
     background-color: $main-color;
 }
+
+.page-main, .page-footer {
+    display: flex;
+    justify-content: center;
+}

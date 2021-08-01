@@ -1,0 +1,67 @@
+.page-header {
+    background: rgb(191,201,211);
+    background: linear-gradient(45deg, rgba(191,201,211,1) 23%, rgba(16,176,234,1) 50%, rgba(191,201,211,1) 77%);
+    .main-navigation {
+        width: 75%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        .logo {
+            font-size: 2rem;
+            font-weight: 700;
+            line-height: 0.75;
+            padding: 25px 0;
+            a {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-decoration: none;
+                color: white;
+                p:last-child {
+                    font-size: 2.5rem;
+                    font-weight: 900;
+                }
+            }
+        }
+        .menu {
+            list-style: none;
+            display: flex;
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+            letter-spacing: 1px;
+            li {
+                margin-left: 20px;
+                a {
+                    text-decoration: none;
+                    background-color: aquamarine;
+                    color: black;
+                    padding: 10px 20px;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+
+   
+
+    .banner {
+        height: 300px;
+        overflow: hidden;
+        position: relative;
+        h1 {
+            position: absolute;
+            font-size: 5rem;
+            color: #bdffe9;            z-index: 1;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        img {
+            width: 100%;
+            position: relative;
+            bottom: 300px;
+            opacity: 0.25;
+        }
+    }
+}

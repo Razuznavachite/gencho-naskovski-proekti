@@ -5,11 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gencho-Naskovski Proekti</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/site.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}../../css/site.css">
 </head>
 <body>
+    <div class="page">
+        <header class="page-header">
+            <nav class="main-navigation">
+                <div class="logo">
+                    <a href="/">
+                        <p>Генчо-Насковски</p>
+                        <p>Проекти</p>
+                    </a>
+                </div>
+                <ul class="menu">
+                    {% assign sorted_pages = site.pages | sort:"order" %}
+                    {% for i in sorted_pages %}
+                        {% if i.title %}
+                            <li>
+                                {% if i.permalink %}
+                                    <a href="{{ i.url }}">
+                                        {{ i.title }}
+                                    </a>
+                                {% else %}
+                                    <a href="/">
+                                        {{ i.title }}
+                                    </a>
+                                {% endif %}
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </nav>
+            <div class="banner">
+                <h1>Разузнавачите</h1>
+                <img src="https://images.unsplash.com/photo-1518314916381-77a37c2a49ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1502&q=80" alt="lego">
+            </div>
+        </header>
 
-    {{ content }}
-    
+        <main class="page-main">
+            {{ content }}
+        </main>
+
+        <footer class="page-footer">
+            Генчо-Насковски Проекти &copy; All rights reserved 2021
+        </footer>
+    </div>
 </body>
 </html>
