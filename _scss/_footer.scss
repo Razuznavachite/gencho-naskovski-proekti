@@ -1,0 +1,11 @@
+.page-footer {
+    background: $footer-gradient-color;
+    background: $footer-gradient-properties;
+    padding-top: 30px;
+}
+
+.page-footer-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+

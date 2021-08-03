@@ -7,6 +7,13 @@ body {
     background-color: $main-color;
 }
 
+.page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .page-main, .page-footer {
     display: flex;
     justify-content: center;

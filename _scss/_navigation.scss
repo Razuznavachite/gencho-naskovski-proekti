@@ -1,6 +1,6 @@
 .page-header {
-    background: rgb(191,201,211);
-    background: linear-gradient(45deg, rgba(191,201,211,1) 23%, rgba(16,176,234,1) 50%, rgba(191,201,211,1) 77%);
+    background: $header-gradient-color;
+    background: $header-gradient-properties;
     .main-navigation {
         width: 75%;
         margin: 0 auto;
@@ -23,9 +23,9 @@
                 }
             }
         }
+
         .menu {
             list-style: none;
-            display: flex;
             display: flex;
             align-items: center;
             font-weight: bold;
@@ -41,9 +41,8 @@
                 }
             }
         }
-    }
-
-   
+        
+    }   
 
     .banner {
         height: 300px;
@@ -57,11 +56,37 @@
             left: 50%;
             transform: translate(-50%, -50%);
         }
-        img {
+
+        .banner-image {
+            background-image: url('https://images.unsplash.com/photo-1518314916381-77a37c2a49ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1502&q=80');
             width: 100%;
-            position: relative;
-            bottom: 300px;
+            height: 300px;
+            background-position: center;
+            background-size: cover;
             opacity: 0.25;
+          }
+    }
+}
+
+.menu {
+    list-style: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    li {
+        a {
+            text-decoration: none;
+            color: black;
         }
+    }
+}
+
+.footer-nav {
+    margin-bottom: 20px;
+    ul {
+        display: flex;
+        justify-content: space-around;
+    }
+    .rights {
+        margin-bottom: 20px;
     }
 }

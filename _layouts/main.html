@@ -36,10 +36,13 @@
                     {% endfor %}
                 </ul>
             </nav>
-            <div class="banner">
-                <h1>Разузнавачите</h1>
-                <img src="https://images.unsplash.com/photo-1518314916381-77a37c2a49ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1502&q=80" alt="lego">
-            </div>
+            {% if page.order == 1 %}
+                <div class="banner">
+                    <h1>Разузнавачите</h1>
+                    <div class="banner-image">
+                    </div>
+                </div>
+            {% endif %}
         </header>
 
         <main class="page-main">
@@ -47,7 +50,31 @@
         </main>
 
         <footer class="page-footer">
-            Генчо-Насковски Проекти &copy; All rights reserved 2021
+            <div class="page-footer-wrapper">
+                <nav class="footer-nav">
+                    <ul class="menu">
+                        {% assign sorted_pages = site.pages | sort:"order" %}
+                        {% for i in sorted_pages %}
+                            {% if i.title %}
+                                <li>
+                                    {% if i.permalink %}
+                                        <a href="{{ site.baseurl }}{{ i.url }}">
+                                            {{ i.title }}
+                                        </a>
+                                    {% else %}
+                                        <a href="/">
+                                            {{ i.title }}
+                                        </a>
+                                    {% endif %}
+                                </li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                </nav>
+                <p class="rights">
+                    Генчо-Насковски Проекти &copy; All rights reserved 2021
+                </p>
+            </div>
         </footer>
     </div>
 </body>
