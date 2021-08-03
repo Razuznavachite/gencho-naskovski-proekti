@@ -1,3 +1,58 @@
-h1 {
-    color: blue;
+// For Landing Page
+.landing-page {
+    width: 75%;
+    margin: 15px auto 50px auto;
+    .headings-wrapper {
+        text-align: center;
+        font-size: 2rem;
+        color: black;
+        margin: 30px 0 60px 0;
+        h3 {
+            font-size: 1.85rem;
+        }
+    }
+
+    .description-wrapper {
+        display: flex;
+        justify-content: space-between;
+        section {
+            width: 30%;
+            text-align: center;
+            font-size: 1.35rem;
+        }
+        .icon-wrapper {
+            font-size: 6rem;
+        }
+        .heading {
+            margin: 1.4rem;
+        }
+        .information {
+            font-style: italic;
+        }
+        .robots .icon-wrapper {
+            color: forestgreen;
+        }
+        .electronics .icon-wrapper {
+            color: darkorange;
+        }
+    }
+}
+
+
+.projects-page{
+    h1 {
+        margin-bottom: 50px;
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .kolichka-wrapper {
+        border: 2px solid black;
+        border-radius: 5px;
+        background-image: url("https://scontent.fgla2-1.fna.fbcdn.net/v/t1.15752-9/139654840_734575323833258_748131013434779710_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=ae9488&_nc_ohc=vw0fwGp7d0gAX-Xubvs&_nc_ht=scontent.fgla2-1.fna&oh=d15f3ea43d1c9aaf378cbb9538a8bd32&oe=612F45C8");
+        height: 33vh;
+        width:33vw;
+        background-position: center;
+        background-size: cover;
+    }
 }

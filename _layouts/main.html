@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gencho-Naskovski Proekti</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}css/site.css">
+    <link rel="stylesheet" href="/css/site.css">
 </head>
 <body>
     <div class="page">
         <header class="page-header">
             <nav class="main-navigation">
                 <div class="logo">
-                    <a href="/">
+                    <a href="{{ site.baseurl }}/">
                         <p>Генчо-Насковски</p>
                         <p>Проекти</p>
                     </a>
@@ -27,7 +27,7 @@
                                         {{ i.title }}
                                     </a>
                                 {% else %}
-                                    <a href="{{ site.baseurl }}">
+                                    <a href="{{ site.baseurl }}/">
                                         {{ i.title }}
                                     </a>
                                 {% endif %}
