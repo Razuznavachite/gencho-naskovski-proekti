@@ -1,0 +1,202 @@
+@media all and (max-width: 973px){
+    .page {
+        .page-header {
+            .main-navigation {
+                display: block;
+                margin-bottom: 50px;
+                margin-top: 20px;
+                .menu {
+                    margin-top: 20px;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 750px) {
+    .page {
+        .page-header {
+
+            .banner {
+                height: 250px;
+                h1 {
+                    font-size: 4rem;
+                }
+            }
+        }
+        .landing-page {
+
+            .headings-wrapper {
+                font-size: 1.85rem;
+                h3 {
+                    font-size: 1.5rem;
+                }
+            }
+            .description-wrapper {
+                section {
+                    font-size: 1.15rem;
+                }
+                .icon-wrapper {
+                    font-size: 5rem;
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 660px){
+    .page {
+        .page-header {
+            .main-navigation {
+                display: block;
+                margin-bottom: 50px;
+                margin-top: 20px;
+                .menu {
+                    margin-top: 20px;
+                    display: block;
+                    li {
+                        margin-bottom: 5px;
+                        a {
+                            display: flex;
+                            justify-content: center;
+                            font-size: 1.15rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 630px){
+    .page {
+        .page-header {
+
+            .banner {
+                height: 250px;
+                h1 {
+                    font-size: 4rem;
+                }
+            }
+        }
+        .landing-page {
+
+            .headings-wrapper {
+                font-size: 1.85rem;
+                h3 {
+                    font-size: 1.5rem;
+                }
+            }
+            .description-wrapper {
+                flex-direction: column;
+                section {
+                    width: 100%;
+                    margin-bottom: 50px;
+                    .information {
+                        max-width: 50%;
+                        margin: 0 auto;
+                    }
+                }
+                .electronics {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 625px) {
+    .page {
+        .page-header {
+
+            .banner {
+                height: 250px;
+                h1 {
+                    font-size: 3.5rem;
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 399px) {
+    .page {
+        .page-header {
+
+            .banner {
+                height: 225px;
+                h1 {
+                    font-size: 2.5rem;
+                }
+            }
+        }
+        .landing-page {
+            .description-wrapper {
+                section {
+                    .information {
+                        max-width: 100%;
+                    }
+                }
+            }
+        }
+        .page-footer {
+            .footer-nav {
+                .menu {
+                    flex-direction: column;
+                    align-items: center;
+                    li {
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 330px) {
+    .page {
+        .page-header {
+            .main-navigation {
+                .logo {
+                    font-size: 1.35rem;
+                    text-align: center;
+                }
+            }
+            .banner {
+                height: 200px;
+                h1 {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 230px) {
+    .page {
+        .page-header {
+            .main-navigation {
+                .logo {
+                    a {
+                        p:last-child {
+                            font-size: 1.35rem;
+                        }
+                    }
+                }
+            }
+            .banner {
+                h1 {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media all and (min-width: 1400px) {
+    .page {
+        margin: 0 auto;
+        max-width: 1600px;
+    }
+}
