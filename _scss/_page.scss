@@ -45,6 +45,7 @@
 
 .projects-page{
     h1 {
+        text-align: center;
         margin-bottom: 50px;
     }
     display: flex;
@@ -57,6 +58,7 @@
         width: 33vw;
         min-width: 125px;
         max-width: 850px;
+        overflow: hidden;
         img {
             width: 100%;
         }
