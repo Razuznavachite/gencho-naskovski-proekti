@@ -59,6 +59,8 @@
         min-width: 125px;
         max-width: 850px;
         overflow: hidden;
+        display: flex;
+        align-items: center;
         img {
             width: 100%;
         }
