@@ -44,18 +44,19 @@
 
 
 .projects-page{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     h1 {
         text-align: center;
         margin-bottom: 50px;
     }
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     .kolichka-wrapper {
         border: 2px solid black;
         border-radius: 5px;
         margin-bottom: 50px;
-        width: 33vw;
+        width: 75vw;
         min-width: 125px;
         max-width: 850px;
         overflow: hidden;
