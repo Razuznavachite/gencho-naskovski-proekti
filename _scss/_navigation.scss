@@ -38,6 +38,10 @@
                     color: black;
                     padding: 10px 20px;
                     border-radius: 5px;
+                    border: 1px solid aquamarine;
+                    &:hover {
+                        background-color: rgb(77, 205, 162);
+                    }
                 }
             }
         }
