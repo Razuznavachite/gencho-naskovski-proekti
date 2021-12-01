@@ -3,8 +3,8 @@ email: genchovski.proekti@gmail.com
 description: >- 
   This is Gencho and Nasko's awesome new site. You can see all the cool stuff we have definitely created together. No really we did them together, it was not the work of Gencho only, Nasko did some stuff as well! Really. I swear. He wasn't only lying around doing nothing all day to contribute to this project. Nasko definitely did some stuff. But if you want to know what he did just ask him, because Gencho doesn't know.
 destination:  docs
-# baseurl:  "/gencho-naskovski-proekti"
-baseurl: ""
+baseurl:  "/gencho-naskovski-proekti"
+# baseurl: ""
 url: ""
 github_username:  Razuznavachite
 
