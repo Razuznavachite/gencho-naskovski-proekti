@@ -42,7 +42,7 @@
     }
 }
 
-
+// For Projects Page
 .projects-page{
     margin-top: 50px;
     display: flex;
@@ -65,5 +65,18 @@
         img {
             width: 100%;
         }
+    }
+}
+
+// For Contacts Page
+.contacts-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .contacts-header{
+        margin: 3rem 0 1rem 0;
+    }
+    .contacts-email{
+        margin: 1rem 0 3rem 0;
     }
 }

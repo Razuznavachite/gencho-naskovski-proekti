@@ -155,6 +155,17 @@
     }
 }
 
+@media all and (max-width: 360px) {
+    .contacts-wrapper{
+        .contacts-header{
+            font-size: 1.75rem;
+        }
+        .contacts-email{
+            font-size: 1.25rem;
+        }
+    }
+}
+
 @media all and (max-width: 330px) {
     .page {
         .page-header {
@@ -170,6 +181,14 @@
                     font-size: 2rem;
                 }
             }
+        }
+    }
+    .contacts-wrapper{
+        .contacts-header{
+            font-size: 1.25rem;
+        }
+        .contacts-email{
+            font-size: 0.75rem;
         }
     }
 }
